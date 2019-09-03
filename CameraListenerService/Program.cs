@@ -17,6 +17,7 @@ namespace CameraListenerService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
+                //Let's start
                 new CameraListenerService()
             };
             ServiceBase.Run(ServicesToRun);
